@@ -1,0 +1,75 @@
+.header{
+    height: 5rem;
+    border-bottom: 1px solid black;
+    display: flex;
+    background-color: #18181b;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+}
+.header__esquerda{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.header__esquerdaLogo{
+    object-fit: contain;
+    height: 3rem;
+    margin-left: 20px;
+}
+.header__esquerda>h2{
+    margin: 15px;
+}
+.header__esquerda>i{
+    margin-left: 15px;
+}
+.header__meio{
+    background-color: #464648;
+    height: 3.5rem;
+    display: flex;
+    width: 25%;
+    border-radius: 8px;
+    overflow: hidden;
+    align-items: center;
+    margin: 10px;
+}
+.header__meio>input{
+    outline: none;
+    background-color: transparent;
+    flex: 1;
+    margin-left: 15px;
+    font-size: large;
+    border: none;
+}
+.header__meioLogoContainer{
+    background-color: #2b2b2b;
+    width: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__direita{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+.header__direitaContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__direitaContainer>i, .header__direitaContainer>div{
+    margin: 20px;
+}
+.header__direitaGoLive{
+    display: flex;
+    align-items: center;
+    background-color: #4a4a4c;
+    height: 3.5rem;
+    padding: 0px 20px;
+    border-radius: 15px;
+}
+.header__direitaGoLive>i{
+    margin-right: 5px;
+}
