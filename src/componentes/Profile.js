@@ -4,6 +4,7 @@ import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
+import RecentItens from './RecentItens';
 
 const Profile = () => {
   return (
@@ -31,7 +32,8 @@ const Profile = () => {
         <div className='profile__recent'>
           <h2>Transmissões recentes</h2>
           <div className='profile__recentItens'>
-
+            <RecentItens
+            url={'https://www.youtube.com/watch?v=EIJOI7KlzHw'} title={'Sons do among us'}/>
           </div>
         </div>
     </div>
