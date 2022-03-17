@@ -3,6 +3,6 @@
 background: linear-gradient(180deg, rgba(255,82,2,1) 0%, rgba(255,140,24,1) 45%, rgba(239,244,22,1) 100%);
     flex: 1;
     display: flex;
-    height: 110vh;
+    height: 180vh;
     overflow: hidden;
 }
