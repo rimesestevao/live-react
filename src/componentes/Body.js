@@ -1,5 +1,6 @@
 import React from 'react'
 import Profile from './Profile'
+import './Body.css'
 
 const Body = () => {
   return (
@@ -10,6 +11,7 @@ const Body = () => {
         <div className='body_rightPlaceHolder'>
 
         </div>
+        
     </div>
   )
 }
