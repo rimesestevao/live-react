@@ -6,3 +6,6 @@ background: linear-gradient(180deg, rgba(255,82,2,1) 0%, rgba(255,140,24,1) 45%,
     height: 180vh;
     overflow: hidden;
 }
+.body--left{
+    width: 96%;
+}

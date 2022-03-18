@@ -1,0 +1,12 @@
+.stream__container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stream__containerEsquerda{
+    background-color: #1f1f23;
+}
+.stream__containerEsquerda>h3{
+    background-color: #404042;
+}

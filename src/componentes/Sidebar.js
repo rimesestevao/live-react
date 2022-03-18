@@ -20,7 +20,7 @@ const Sidebar = () => {
           name='Azul'
           followers='650k'/>
 
-        <p className='sidebar__topShowMore'>Show More</p>
+        <p className='sidebar__topShowMore'>Mostrar mais</p>
         
         <h5>CANAIS RECOMENDADOS</h5>
 
@@ -36,7 +36,7 @@ const Sidebar = () => {
           name='Ciano'
           followers='50k'/>
 
-        <p className='sidebar__topShowMore'>Show More</p>
+        <p className='sidebar__topShowMore'>Mostrar mais</p>
       </div>
 
       <div className="sidebar__bottom">

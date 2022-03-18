@@ -4,22 +4,27 @@ import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
-import MusicVideoIcon from '@material-ui/icons/MusicVideo';
+import StarBorderIcon from '@material-ui/icons/StarBorder';
+
 
 const Profile = () => {
   return (
     <div className='profile'>
-      <div className='profile__topLeft'>
-        <img src='https://logopng.com.br/logos/among-us-131.svg' alt='amongus'/>
-        <div className='profile__topLeftDetails'>
-          <h1>Laranja</h1>
-          <h3>400k seguidores</h3>
+      <div className='profile__header'>
+        <div className='profile__topLeft'>
+          <img src='https://logopng.com.br/logos/among-us-131.svg' alt='amongus'/>
+          <div className='profile__topLeftDetails'>
+            <h1>Di_Wade</h1>
+            <h3>3,2 mil seguidores</h3>
+          </div>
         </div>
-      </div>
-      <div className='profile__topRight'>
-        <i className='graybg'><FavoriteBorderIcon/></i>
-        <i className='graybg'><NotificationsIcon/></i>
-        <i><MoreVertIcon/></i>
+        <div className='profile__topRight'>
+          <div className='graybg'><FavoriteBorderIcon/></div>
+          <div className='graybg'><NotificationsIcon/></div>
+          <div className='purplebg'><StarBorderIcon/><i>Inscrição</i></div>
+          <div><MoreVertIcon/></div>
+          
+        </div>
       </div>
       <div className='profile__menu'>
         <h2 className='active'>Início</h2>
@@ -33,24 +38,24 @@ const Profile = () => {
         <h2>Transmissões recentes</h2>
         <div className='profile__recentItens'>
           <div className='item'>
-            <i><MusicVideoIcon/></i>
+            <img alt='valorant preview' src='https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/74a402aae3d6c376b91d_di_wade_45876472957_1647523667//thumb/thumb0-320x180.jpg'/>
             <div className='item__details'>
-              <img src='https://cdn1.dotesports.com/wp-content/uploads/sites/3/2020/09/19175711/TopBanner_com.innersloth.spacemafia-1536x858-1-1.jpg' alt='among'/>
+              <img src='https://static-cdn.jtvnw.net/ttv-boxart/516575-285x380.jpg' alt='among'/>
               <div className='item__detailsText'>
-                <h4>Jogando among na noitada</h4>
-                <p>Laranja</p>
-                <p>Among Us</p>
+                <h4>Radiante no vava</h4>
+                <p>Di_Wade</p>
+                <p>Valorant</p>
               </div>
             </div>
           </div>
           <div className='item'>
-            <i><MusicVideoIcon/></i>
+            <img alt='valorant preview' src='https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/82f7c8e9555b7ff18f23_di_wade_45833767869_1647178685//thumb/thumb0-320x180.jpg'/>
             <div className='item__details'>
-              <img src='https://cdn1.dotesports.com/wp-content/uploads/sites/3/2020/09/19175711/TopBanner_com.innersloth.spacemafia-1536x858-1-1.jpg' alt='among'/>
+              <img src='https://static-cdn.jtvnw.net/ttv-boxart/516575-285x380.jpg' alt='among'/>
               <div className='item__detailsText'>
-                <h4>Jogando among na noitada</h4>
-                <p>Laranja</p>
-                <p>Among Us</p>
+                <h4>Vava rumo ao radiante</h4>
+                <p>Di_Wade</p>
+                <p>Valorant</p>
               </div>
             </div>
           </div>
@@ -58,9 +63,9 @@ const Profile = () => {
         </div>
       </div>
       <div className='profile__categories'>
-        <h2>Categorias transmitidas por Laranja</h2>
-        <img src='https://static-cdn.jtvnw.net/ttv-boxart/509658-285x380.jpg' alt='among'/>
-        <h3>Just Chatting</h3>
+        <h2>Categorias transmitidas por Di_Wade</h2>
+        <img src='https://static-cdn.jtvnw.net/ttv-boxart/516575-285x380.jpg' alt='among'/>
+        <h3>Valorant</h3>
       </div>
     </div>
   )
