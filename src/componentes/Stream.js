@@ -7,8 +7,10 @@ const Stream = () => {
     <div className='stream'>
         <div className='stream__container'>
             <div className='stream__containerEsquerda'>
-                <h3>Offline</h3>
-                <h4>Confira esta transmissão de Valorant de ontem.</h4>
+                <div className='stream__containerEsquerdaSup'>
+                  <i className='stream__containerEsquerdaOff'>Offline</i>
+                  <h4>Confira esta transmissão de Valorant de ontem.</h4>
+                </div>
                 <div className='stream__containerEsquerdaAlerta'>
                     <NotificationsIcon/>
                     <i>Clique para receber notificações</i>
